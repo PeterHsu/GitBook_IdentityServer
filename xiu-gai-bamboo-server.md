@@ -96,5 +96,71 @@ lWNPM1ZJ37I-6V2zQ",
 ]
 ```
 
+```
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkMjJhZTRiYjBlNjMyY2E0NmUzYWFjM
+GVlYmNmZDMxIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MTMzMTcwNzcsImV4cCI6MTUxMzMyMDY3Nywia
+XNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9yZ
+XNvdXJjZXMiLCJhcGkxIl0sImNsaWVudF9pZCI6InJvLmNsaWVudCIsInN1YiI6IjEiLCJhdXRoX3Rpb
+WUiOjE1MTMzMTcwNzcsImlkcCI6ImxvY2FsIiwic2NvcGUiOlsiYXBpMSJdLCJhbXIiOlsicHdkIl19.
+FfmBjzZzRmiWwpn-uzIU7cuhETyhCL4sayhM9Y6YYiSpKtavOBp093wk8jGn3d8Y4ZtUf2UeXAe8Ma6Q
+GFhxii6RS78llxRM7CKzxpGoyEoXm_sNvx0Uif4IJNfYS2h9b2SpYgXbHSZh0j3hOHZ4PbZk0MmBxvxd
+HNtPALFUjPG2EHkuwk2Uk51Ns4Kbsnt12fIz43G3T0BetUOUGOcN4jqaJZ3ymKthEvDGmhUWk3H8K5EE
+oLTQmg51crH_Pn3RAPwQEcJ73Z8qQz4GNVXpBWB5yuvNrq1TOYvhM2QpzrojZqC7lg8vy2Hyh4MoMBBN
+aANIn-EHrXc3LId43KfNFA",
+  "expires_in": 3600,
+  "token_type": "Bearer"
+}
+
+
+
+[
+  {
+    "type": "nbf",
+    "value": "1513317077"
+  },
+  {
+    "type": "exp",
+    "value": "1513320677"
+  },
+  {
+    "type": "iss",
+    "value": "http://localhost:5000"
+  },
+  {
+    "type": "aud",
+    "value": "http://localhost:5000/resources"
+  },
+  {
+    "type": "aud",
+    "value": "api1"
+  },
+  {
+    "type": "client_id",
+    "value": "ro.client"
+  },
+  {
+    "type": "sub",
+    "value": "1"
+  },
+  {
+    "type": "auth_time",
+    "value": "1513317077"
+  },
+  {
+    "type": "idp",
+    "value": "local"
+  },
+  {
+    "type": "scope",
+    "value": "api1"
+  },
+  {
+    "type": "amr",
+    "value": "pwd"
+  }
+]
+```
+
 
 
