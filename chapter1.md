@@ -1,3 +1,16 @@
-# First Chapter
+# 建置
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+## 軟體
+
+dotnet --version
+
+2.1.2
+
+## 建立專案
+
+Bamboo/BambooServer&gt;dotnet new web
+
+&gt;dotnet add package IdentityServer4 --version 2.0.5
+
+
+
