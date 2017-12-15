@@ -73,6 +73,14 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 }
 ```
 
+## 測試
+
+&gt;dotnet run
+
+瀏覽
+
+http://localhost:5000/.well-known/openid-configuration
+
 
 
 
