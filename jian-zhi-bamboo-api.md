@@ -6,9 +6,9 @@ Bamboo/BambooAPI&gt;dotnet new webapi
 
 &gt;dotnet add package IdentityServer4.AccessTokenValidation --version 2.1.0
 
-程式
+## 程式
 
-新增Controllers/IdentityController.cs
+### 新增Controllers/IdentityController.cs
 
 ```
 using System.Linq;
@@ -30,7 +30,7 @@ namespace BambooAPI.Controllers
 }
 ```
 
-修改Program.cs
+### 修改Program.cs
 
 ```
  public static IWebHost BuildWebHost(string[] args) =>
@@ -40,7 +40,7 @@ namespace BambooAPI.Controllers
                 .Build();
 ```
 
-修改Startup.cs
+### 修改Startup.cs
 
 ```
 public void ConfigureServices(IServiceCollection services)
@@ -65,17 +65,15 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 }
 ```
 
-測試
+## 測試
 
 &gt;dotnet run
 
-瀏覽
+### 瀏覽
 
-http://localhost:5001/identity
+[http://localhost:5001/identity](http://localhost:5001/identity)
 
-結果
+### 結果
 
 401 Unauthorized
-
-
 
