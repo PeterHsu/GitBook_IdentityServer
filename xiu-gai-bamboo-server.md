@@ -96,6 +96,16 @@ lWNPM1ZJ37I-6V2zQ",
 ]
 ```
 
+修改Program.cs
+
+```
+// request token
+// var tokenClient = new TokenClient(disco.TokenEndpoint, "client", "secret");
+// var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");
+var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");
+var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("alice", "password", "api1");
+```
+
 ```
 {
   "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkMjJhZTRiYjBlNjMyY2E0NmUzYWFjM
